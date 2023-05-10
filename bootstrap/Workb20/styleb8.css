@@ -1,0 +1,89 @@
+.all1{
+    color: aliceblue;
+    padding:5px;
+    height:40px;
+    width: 50px;
+}
+.head1{
+    padding-left:80px;
+}
+.all2{
+    background:url(Images/flight.jpg)  no-repeat top center;
+    background-size: cover;
+    color: aliceblue;
+    height:600px;
+    text-align: center;
+    padding-top:150px;
+}
+.all3{
+    background-color:rgba(0, 0, 0, 0.432)
+}
+.clr1{
+    color: blanchedalmond;
+    font-family:'Times New Roman', Times, serif;
+}
+.bkgnd1{
+    background-color:burlywood;
+}
+.bkgnd2{
+    background-color: coral;
+}
+.head2{
+    padding-top:235px;
+    background-color:rgba(0, 0, 0, 0.432);
+    color:rgba(0, 0, 0, 0.705);
+    font-family:'Times New Roman', Times, serif;
+}
+.head3{
+    text-align: center;
+    margin-top:65px;
+}
+.head4{
+    text-align: center;
+}
+.link1{
+    margin-left:100px;
+}
+.head5{width:80px;
+    height:80px;
+}
+.all4{
+    color: aliceblue;
+}
+.all5{
+    background:url(Images/pexels-longxiang-qian-1710482.jpg) no-repeat top center;
+    background-size: cover;
+    color:white;
+    height:500px;
+    text-align:center;
+    padding-top:250px;
+}
+.bg{
+    background-color:black;
+    position: relative;
+    bottom:362px;
+    height:500px;
+    left:-15px;
+    width:100%;
+    opacity: 0.5;
+}
+.text{
+    color: aliceblue;
+}
+.all6{
+    color:black
+}
+.head6{
+    color: gray;
+}
+.frm1{
+    margin-left: 370px;
+}
+.all7{
+    background-color: dimgray;
+}
+.head7{
+    padding-top: 40px;
+}
+.para1{list-style-type: none; }
+ul{color:aqua}

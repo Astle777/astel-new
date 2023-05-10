@@ -1,0 +1,15 @@
+.img1{width:50px;height:40px;}
+.tab1{padding-left:600px;}
+.text1:hover{color:orange;}
+.text1{color: white;}
+.bgrnd1{background:url(Images/background.jpg);background-repeat: no-repeat;background-size: cover;color: aliceblue;height:400px;text-align: center;padding-top:150px;}
+.text2{text-align: center;}
+.text2 img{margin-bottom:5px;}
+.tab2{padding-top:10px;}
+.head1{margin-top:50px;text-align: center;}
+.all1{background-color: rgb(247,242,242);}
+.all2{background-color: rgba(189, 53, 3, 0.945);}
+.text3{text-align: center;color: aliceblue;}
+.para1{color: aliceblue;}
+.head2{color:rgb(255, 115, 0);padding-top: 40px;}
+.mma img{margin-bottom:15px;}

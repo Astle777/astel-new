@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML="Hello javascript";
+        document.getElementById("demo").style="color:orange";
+        document.write("msg");
+        window.alert("msg2");
+        //alert("demo");
+        console.log(5+3);
+        function Add(){document.getElementById("demo").innerHTML="Changed content";}
+    </script>
+    <p id="demo">Hello</p>
+    <input type="submit" onclick="Add()" value="submit">
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+       
+
+        function Add()
+        {
+            document.getElementById("img2").src="artist.jpg";
+        }
+        function Add2()
+        {
+            document.getElementById("img2").src="maldvs4.jpg.jpg";
+        }
+    </script>
+    <img src="artist.jpg" id="img2" width="200" alt="">
+    <input type="submit" onclick="Add()" value="submit">
+    <input type="submit" onclick="Add2()" value="submit">
+</body>
+</html>

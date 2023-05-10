@@ -1,0 +1,109 @@
+
+.bgclr{
+    background: url(Images/italy.jpg.jpg) no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.gif{
+    width:40px;
+    height:40px;
+}
+.head1{
+    color: aliceblue;
+    padding-top:284px;
+}
+.head2{
+    color: aliceblue;
+    font-size: 20px;
+}
+.font1{
+    font-family:'Times New Roman', Times, serif;
+}
+.head3{
+    font-size:65px;
+    color: aliceblue;
+    padding-top:200px;
+}
+.all1{
+    margin-top:120px;
+}
+.head4{
+    color: rgba(241, 71, 9, 0.747);
+}
+.head5{
+    font-size:50px;
+}
+.para1{
+    color: aliceblue;
+    border: 1px solid transparent;
+    background-color: rgba(241, 71, 9, 0.747) ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding:12px; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.all2{
+    margin-top: 180px;
+}
+.clr1{
+    color: aliceblue;
+}
+.img1{
+    border-radius:50%;
+}
+.all3{
+    background-color: aliceblue;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.clr2{color: black;}
+.clr2:hover{background-color:rgb(255, 123, 0);}
+.clr3{
+    background-color:rgb(255, 123, 0);
+}
+.para2{
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    background-color:transparent ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding:12px; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.clr4:hover{
+    background-color: aliceblue;
+    color:rgb(255, 123, 0) ;
+    text-decoration: none;
+}
+.head6{
+    color: aliceblue;
+}
+.lst1{
+    list-style-type: none;
+}
+.lst2{
+    text-align: center;
+}
+li{
+    padding-bottom:10px;
+    color: gray;
+}
+.clr5{
+    color: gray;
+}
+.para3{
+    padding-top:70px;
+    padding-left:320px;
+    color: gray;
+    text-align: center;
+}
+.clr6{
+    color:rgb(255, 123, 0) ;
+    
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Montserrat:wght@500&family=Open+Sans&display=swap');
+.bgclr{
+    background-color: black;
+}
+.head1{
+    margin-top:100px;
+}
+.font1{
+    text-align: center;
+}
+.img1{
+    width:100%;
+}
+.all1{
+    background-color: aliceblue;
+}
+.link1{
+    text-align: center;
+}
+.all2{
+    padding-top:100px;
+    padding-bottom:100px;
+    background: url(Images/pexels-vishnu-r-nair-1105666.jpg)  no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.brdr1{
+    border: 1px solid transparent;
+    background-color:black;opacity:90%;
+}
+.clr1{
+    color:aliceblue;opacity:50%;
+}
+.img5{
+    border-radius:50%;
+}
+.brdr2{
+    border:1px solid rgba(128, 128, 128, 0.377);
+    background-color: aliceblue;
+}
+.brdr3:hover{
+    border:1px solid rgba(128, 128, 128, 0.377);
+    background-color: aliceblue;  
+}
+.inp1{ 
+    background:transparent;outline: none; 
+    border:none;
+    border-bottom: 1px solid rgb(250, 249, 249);
+    width: 100%;
+}
+.all3{
+    margin-top:100px;
+    padding-bottom:100px;
+    text-align: center;
+    padding-top:100px;
+    background: url(Images/pexels-suvan-chowdhury-144428.jpg)  no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.clr2{
+    color: aliceblue;
+}
+.link2{
+    text-align: center;
+    padding-top:100px;
+}
+.font2{
+    font-weight: 800;
+}
+.font3{
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-family: 'Archivo Narrow', sans-serif;
+}

@@ -1,0 +1,31 @@
+.img1{width:40px;
+    height:30px;}
+.head1{position:absolute;left:430px;top:1px;}
+.img2{background-image:url(Images/bckgrnd1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;}
+.para2 {position:absolute;left:700px;}
+.para2-1 {position:absolute;top:30px;
+             text-decoration:none;
+             font-weight:700;
+             color: black;}             
+.para3 {position:absolute;left:780px;}
+.para4 {position:absolute;left:905px;}
+.para5 {position:absolute;left:1020px;}
+.para6 {position:absolute;left:1130px;}
+a:hover{color:gray;}
+.inp1{position:absolute;left:1250px;top:30px;width:500px;}
+.all2{width:1000px;position:absolute;top:80px;left:350px;background-image:url(Images/artist.jpg);background-repeat:no-repeat;background-size:cover;}
+.head2{color:dimgray;
+       text-align:center;
+       background-color:beige;}
+.para7{color: black;opacity:80%;}
+.list1{background-color:rgb(88, 88, 97);width:280px;opacity:80%;color: aliceblue;}
+.all3{height:837px;width:500px;position:absolute;top:80px;left:1360px;background-color:rgb(88, 88, 97);opacity:80%;}
+.head3{color:black;text-align:center;}
+.list2{color:aliceblue}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.font{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+}
