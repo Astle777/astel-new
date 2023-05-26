@@ -1,0 +1,34 @@
+{% load static %} 
+<html>
+<head>
+    <link rel="stylesheet" href='{% static 'css/style.css' %}'>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.ffaoihkjl'k;lyttsrrstsysuiioikkjhgrr5r67uikkkkwwwwwwwsdddhhhvvccxxxxdere</p>
+<img src="{% static 'images/aswin (1).jpg' %}">
+<br>
+<table>
+    <tr>
+        <th>DPTNAME</th>
+        <th>COLLAGE NAME</th>
+        <th>PINCODE</th>
+    </tr>
+        
+            <tr>
+              {% for i in m %}  
+            </tr>
+            <tr>
+               <td>{{i.Dptname}}</td>
+               <td>{{i.Collagename}}</td>
+               <td>{{i.Pincode}}</td>
+            </tr>
+             {% endfor %}   
+        </table>
+
+
+
+</body>
+</html>

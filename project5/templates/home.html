@@ -1,0 +1,17 @@
+<html>
+<head>
+  
+<title>Page Title</title>
+</head>
+<body>
+{% extends 'base.html'%}
+{% block body_block %}
+<h1>Welcome to Home Page</h1>
+{% if user.is_authenticated %}
+<h1>{{user.username}}</h1>
+{% else %}
+<h1>visitors</h1>
+{% endif %}
+{% endblock %}
+</body>
+</html>

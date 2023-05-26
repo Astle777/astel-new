@@ -1,0 +1,28 @@
+{% load static %} 
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My Site</h1>
+<br><br>
+<button type="button" class="btn btn-primary active"><a href="{% url 'home' %}">Home</a></button>
+{% if user.is_authenticated %}
+<button type="button" class="btn btn-primary active"><a href="{% url 'password_change' %}">change password</a></button>
+<button type="button" class="btn btn-primary active"><a href="{% url 'logout1' %}">Logout</a></button>
+{%else%}
+<button type="button" class="btn btn-primary active"><a href="{% url 'signup1' %}">Signup</a></button>
+<button type="button" class="btn btn-primary active"><a href="{% url 'login1' %}">Login</a></button>
+
+{% endif %}
+
+
+
+{% block body_block %}
+
+{% endblock %}
+
+</body>
+</html>

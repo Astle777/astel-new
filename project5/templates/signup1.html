@@ -1,0 +1,17 @@
+<html>
+<head>
+
+<title>Page Title</title>
+</head>
+<body>
+{% extends 'base.html'%}
+{% block body_block %}
+<h1>Signup</h1>
+<form method='post'>
+    {% csrf_token %}
+    {{form}}
+    <input type="submit" value="Signup">
+</form>
+ {% endblock %}
+</body>
+</html>

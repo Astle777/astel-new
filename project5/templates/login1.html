@@ -1,0 +1,19 @@
+<html>
+<head>
+
+<title>Page Title</title>
+</head>
+<body>
+{% extends 'base.html'%}
+{% block body_block %}
+<h1>Login Now</h1>
+<form method='post'>
+    {% csrf_token %}
+    username:<input type='text' name='n'>
+    password:<input type='text' name='p'>
+    <input type="submit" value="Login">
+</form>
+<a href="{% url 'password_reset' %}">forgot password</a>
+ {% endblock %}
+</body>
+</html>
