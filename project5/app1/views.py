@@ -3,6 +3,8 @@ from django.shortcuts import render
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import authenticate,login,logout
 from app1.forms import CustomUserCreationForm
+from app1.forms import Employee
+from app1.models import Employees
 # Create your views here.
 def home(request):
     return render(request,'home.html')
@@ -30,3 +32,32 @@ def user_login1(request):
 def user_logout1(request):
     logout(request)
     return user_login1(request)
+
+# def employeedetails(request):
+#     form = Employee()
+#     if(request.method=='POST'):
+#         form = Employee(request.POST)
+#         if form.is_valid():
+#             form.save()
+#             return home(request)
+#         else:
+#             form = Employee
+#     return render(request,'employeedetails.html',{"form":form})
+
+def list(request):
+    p=Employees.objects.all()
+    return render(request,'view.html',{"k":p})
+               
+            
+def employeedetails(request):
+    if(request.method=='POST'):
+        a = request.POST['employeeid']
+        b= request.POST['employeename']
+        c = request.POST['company']
+        d = request.POST['Designation']
+        e = request.POST['place']
+        f = request.POST['salary']
+        p = Employees.objects.create(employeeid=a,employeename=b,company=c,Designation=d,place=e,salary=f)
+        p.save()
+        return home(request)
+    return render(request,'employeedetails.html')

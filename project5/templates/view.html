@@ -1,0 +1,31 @@
+<html>
+<head>
+   
+<title>Page Title</title>
+</head>
+<body class="a7">
+    <table>
+    <tr>
+        <th>employeeid</th>
+        <th>employeename</th>
+        <th>company</th>
+        <th>Designation</th>
+        <th>place</th>
+        <th>salary</th>
+    </tr>
+        
+            <tr>
+              {% for i in k %}  
+            </tr>
+            <tr>
+               <td>{{i.employeeid}}</td>
+               <td>{{i.employeename}}</td>
+               <td>{{i.company}}</td>
+               <td>{{i.Designation}}</td>
+               <td>{{i.place}}</td>
+               <td>{{i.salary}}</td>
+            </tr>
+             {% endfor %}   
+        </table>
+    </body>
+    </html>

@@ -1,0 +1,22 @@
+<html>
+<head>
+
+<title>Page Title</title>
+</head>
+<body class="a2">
+{% extends 'base.html'%}
+{% block body_block %}
+<h1>Employee</h1>
+<form class="a3" method='post'>
+    {% csrf_token %}
+    employeeid:<input type='text' name='employeeid'>
+    employeename:<input type='text' name='employeename'>
+    company:<input type='text' name='company'>
+    Designation:<input type='text' name='Designation'>
+    place:<input type='text' name='place'>
+    salary:<input type='text' name='salary'>
+    <input type="submit" value="save">
+</form>
+ {% endblock %}
+</body>
+</html>

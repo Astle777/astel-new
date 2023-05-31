@@ -1,2 +1,10 @@
-h1{text-align: center;
-    background-color: aqua;}
+h1{text-align: center;color: rgba(12, 12, 12, 0.816);}
+.a1{background-image:url('../images/bg-1.jpg.webp');background-repeat: no-repeat;background-size: cover;}
+.a2{background-image: url('../images/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg')}
+.a2{background-repeat: no-repeat;background-size: cover;}
+.a3{color: aliceblue;}
+.a4{text-align: center;font-size: large;font-weight:bold;}
+.a5{text-align: center;}
+.a6{background-color:gray;}
+.a7{background-image: url('../images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg');background-repeat: no-repeat;background-size: cover;}
+p{font-size: large;color: rgba(240, 248, 255, 0.518);font-weight: bold;}
