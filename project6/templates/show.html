@@ -1,0 +1,15 @@
+<html>
+    <head></head>
+    <body>
+        <table>
+        {% for i in s %}
+       <td> {{i.title}}</td>
+        <td>{{i.Author}}</td>
+        <td><a href="{{i.pdf.url}}">-downloads</a></td>
+        <td>  <img src="{{i.cover.url}}"width='100' height='150'></td>
+       
+          {% endfor %}
+
+        </table>
+    </body>
+</html>    

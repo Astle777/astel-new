@@ -1,0 +1,12 @@
+<html>
+    <head></head>
+    <body>
+        <form method='POST'enctype='multipart/form-data'>
+            {% csrf_token %}
+            <table>
+                {{form.as_table}}
+            </table>    
+<button type="button" class="btn btn-primary active"><a href="{% url 'upload' %}">upload</a></button>
+<button type="button" class="btn btn-primary active"><a href="{% url 'show' %}">show</a></button>
+    </body>
+</html>
