@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet"
+    href="{% static 'css/m.css' %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="c1">
+    <h2 class="clr1">Employee</h2>
+    <button type="button" class="btn btn-secondary"><a href="{% url 'home'%}">main</a></button>
+    {% if user.is_authenticated %}
+    <button type="button" class="btn btn-secondary"><a href="{% url 'emp_details'%}">Add Employee Data</a></button>
+    <button type="button" class="btn btn-secondary"><a href="{% url 'view'%}">View</a></button>
+    <button type="button" class="btn btn-secondary"><a href="{% url 'password_change'%}">Change Password</a></button>
+    <button type="button" class="btn btn-secondary"><a href="{% url 'logout1'%}">Logout</a></button>
+    {% else %}
+    <button type="button" class="btn btn-secondary"><a href="{% url 'SignUp1'%}">Signup</a></button>
+    <button type="button" class="btn btn-secondary"><a href="{% url 'login1'%}">Login</a></button>
+
+    {% endif %}    
+    {% block body_block %}
+    {% endblock %}
+</body>
+</html>
