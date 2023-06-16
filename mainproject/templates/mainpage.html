@@ -1,10 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="m.css">
+    <link rel="stylesheet" href="{% static 'css/m.css'%}">
     <title>Document</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
   <div class="container-fluid ">
     <nav class="navbar navbar-expand-lg A1 p-0">
       <a class="navbar-brand A2" href="#">
-        <img src="image/icons8-z-67.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <img src="{% static 'images/Icon.jpg' %}" width="30" height="30" class="d-inline-block align-top" alt="">
         UDIO
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,29 +22,15 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link pl-5 pr-5 A3" href="#">Account</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle pl-5 pr-5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Items
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">GENTS</a>
-              <a class="dropdown-item" href="#">LADIES</a>
-              <a class="dropdown-item" href="#">KIDS</a>
-              <div class="dropdown-divider"></div>
-            </div>
+            <a class="nav-link pl-5 pr-5 A3" href="#">LOG IN</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pl-5 pr-5 A3" href="#">Ads</a>
+            <a class="nav-link pl-5 pr-5 A3" href="#">SIGN UP</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2 pr-5" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-dark btn-outline-light my-2 my-sm-0 pl-5 pr-5 mr-5" type="submit">Search</button>
-        </form>
     </nav>
   </div>
+  <br>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -52,21 +39,21 @@
     </ol>
     <div class="container carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="image/fernando-lavin-fi5YSQfxbVk-unsplash.jpg" height="700px" alt="First slide">
+        <img class="d-block w-100" src="{% static 'images/fernando-lavin-fi5YSQfxbVk-unsplash.jpg' %}" height="900px" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
           <h2>GENTS</h2>
           <p>20% discount for upto Rs.4000 purchase</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="image/fshn.jpg.jpg" height="700px" alt="Second slide">
+        <img class="d-block w-100" src="{% static 'images/fshn.jpg.jpg' %}" height="900px" alt="Second slide">
         <div class="carousel-caption d-none d-md-block">
           <h5>LADIES</h5>
           <p>Latest Trends</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 " src="image/bruno-nascimento-huswdBT2DtY-unsplash.jpg" height="700px" alt="Third slide">
+        <img class="d-block w-100 " src="{% static 'images/bruno-nascimento-huswdBT2DtY-unsplash.jpg'%}" height="900px"  alt="Third slide">
         <div class="carousel-caption d-none d-md-block">
           <h5>KIDS</h5>
           <p>Latest Trends</p>

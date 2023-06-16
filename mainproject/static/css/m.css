@@ -1,0 +1,15 @@
+.A1{
+    background-color: rgb(80, 80, 70);
+    color:black;
+}
+.A2{
+    font-style:italic;
+    font-weight: bolder;
+}
+.A3{
+    color:rgb(52, 156, 241);
+}
+.A3:hover{
+    color: rgba(0, 0, 0, 0.356);
+}
+.A4{background-color: aliceblue;}
